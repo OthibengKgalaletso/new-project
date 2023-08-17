@@ -1,0 +1,63 @@
+body {
+  font-family: "Merriweather", serif;
+}
+h1 {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 52px;
+  position: relative;
+  bottom: 10px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+p {
+  margin: 0px;
+  font-size: 15px;
+}
+.weather-app-body {
+  border: 1px solid #dadde1;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 600px;
+  border-radius: 10px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.city-name {
+  background-color: transparent;
+  padding: 2px;
+  border-radius: 8px;
+}
+.main-icon {
+  font-size: 70px;
+  margin: 0px;
+  color: #ffe168;
+  position: relative;
+  left: 140px;
+  top: -40px;
+}
+.weather-components {
+  position: relative;
+  bottom: -60px;
+}
+.week-weather-prediction {
+  text-align: center;
+}
+.forecast-icon {
+  display: block;
+  margin-top: 5px;
+  font-size: 30px;
+}
+.units {
+  font-size: 17px;
+  position: relative;
+  top: -24px;
+}
+#current-location {
+  padding: 5px;
+  color: black;
+}
